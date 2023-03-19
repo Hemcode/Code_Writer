@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0880498-cff6-406f-8b32-bedb421eb83c" name="Changes" comment="CodeWriter_v0.1_003" />
+    <list default="true" id="a0880498-cff6-406f-8b32-bedb421eb83c" name="Changes" comment="CodeWriter_v0.1_004">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/hemcode/codeWriter/Main_Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/hemcode/codeWriter/Main_Window.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,7 +79,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679220446751</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="CodeWriter_v0.1_004">
+      <created>1679221190304</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679221190304</updated>
+    </task>
+    <task id="LOCAL-00005" summary="CodeWriter_v0.1_004">
+      <created>1679221219294</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1679221219294</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -84,6 +101,7 @@
     <MESSAGE value="CodeWriter_v0.1_001" />
     <MESSAGE value="CodeWriter_v0.1_002" />
     <MESSAGE value="CodeWriter_v0.1_003" />
-    <option name="LAST_COMMIT_MESSAGE" value="CodeWriter_v0.1_003" />
+    <MESSAGE value="CodeWriter_v0.1_004" />
+    <option name="LAST_COMMIT_MESSAGE" value="CodeWriter_v0.1_004" />
   </component>
 </project>

@@ -38,6 +38,15 @@ public class Main_Window extends JFrame implements AutoCloseable {
 
         this.setJMenuBar(setMenuBar());
         JPanel jPanel = (JPanel) this.getContentPane();
+
+        jPanel.add(setToolBar(), BorderLayout.NORTH);
+        jPanel.add(setDynamicBar(), BorderLayout.EAST);
+
+        JTextArea textArea = new JTextArea();
+        textArea.setTabSize(1);
+
+        JScrollPane scrollTextArea = new JScrollPane(textArea);
+        jPanel.add(scrollTextArea);
     }
 
     @Override
@@ -70,8 +79,37 @@ public class Main_Window extends JFrame implements AutoCloseable {
     private JToolBar setToolBar() {
         JToolBar toolBar = new JToolBar();
 
-        JButton btn_run = new JButton();
+        JButton btn_run = new JButton("RUN");
+        btn_run.setForeground(Color.GREEN);
+
+        toolBar.add(btn_run);
 
         return toolBar;
+    }
+
+    private JPanel setDynamicBar() {
+        JPanel jPanel = new JPanel(new GridLayout(4, 1));
+
+        JButton btn_debug = new JButton("DEBUG");
+        btn_debug.setForeground(Color.WHITE);
+        btn_debug.setBackground(Color.BLACK);
+        jPanel.add(btn_debug);
+
+        JButton btn_unknow1 = new JButton("?");
+        btn_unknow1.setForeground(Color.WHITE);
+        btn_unknow1.setBackground(Color.BLACK);
+        jPanel.add(btn_unknow1);
+
+        JButton btn_unknow2 = new JButton("??");
+        btn_unknow2.setForeground(Color.WHITE);
+        btn_unknow2.setBackground(Color.BLACK);
+        jPanel.add(btn_unknow2);
+
+        JButton btn_unknow3 = new JButton("???");
+        btn_unknow3.setForeground(Color.WHITE);
+        btn_unknow3.setBackground(Color.BLACK);
+        jPanel.add(btn_unknow3);
+
+        return jPanel;
     }
 }
