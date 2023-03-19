@@ -5,6 +5,8 @@ import javax.swing.plaf.nimbus.NimbusLookAndFeel;
 import java.awt.*;
 import java.awt.event.*;
 
+import fr.hemcode.codeWriter.include.File;
+
 public class Main_Window extends JFrame implements AutoCloseable {
 
     private static final int WINDOW_WIDTH = 1280;
@@ -50,9 +52,7 @@ public class Main_Window extends JFrame implements AutoCloseable {
     }
 
     @Override
-    public void close() {
-        Main_Window.this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-    }
+    public void close() {Main_Window.this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);}
 
     public static void main(String[] args) throws Exception {
         UIManager.setLookAndFeel(new NimbusLookAndFeel());
